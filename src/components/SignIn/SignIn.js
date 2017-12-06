@@ -95,12 +95,7 @@ class SignIn extends Component {
   }
 }
 
-// export default reduxForm({
-//   validate,
-//   form: 'PostsNewForm'
-// })(
-//   connect(null,{ createPost })(PostsNew)
-// );
+
 
 const mapStateToProps = (state) => {
   return {
